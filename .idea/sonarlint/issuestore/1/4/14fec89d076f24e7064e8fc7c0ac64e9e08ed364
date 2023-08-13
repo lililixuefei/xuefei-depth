@@ -1,0 +1,13 @@
+
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+f
+java:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(éñ‚¢
+f
+java:S1149D"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(éñ‚¢
+P	java:S125"<This block of commented-out lines of code should be removed.(ó†Ú{
+9
+java:S1659"#Declare "index" on a separate line.(ê¼—¥
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»¡÷ì
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

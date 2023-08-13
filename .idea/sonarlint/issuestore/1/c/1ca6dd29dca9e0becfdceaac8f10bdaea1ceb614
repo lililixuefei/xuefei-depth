@@ -1,0 +1,21 @@
+
+t
+java:S1104"YMake onLineSockets a static final constant or non-public and provide accessors if needed.(©ÝÑ×üÿÿÿÿ
+N
+java:S1444"3Make this "public static onLineSockets" field final(©ÝÑ×üÿÿÿÿ
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(£á•ùýÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+8
+java:S2386"Make this member "protected".(©ÝÑ×üÿÿÿÿ
+t
+java:S1104"YMake onLineSockets a static final constant or non-public and provide accessors if needed.(©ÝÑ×üÿÿÿÿ
+N
+java:S1444"3Make this "public static onLineSockets" field final(©ÝÑ×üÿÿÿÿ
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(£á•ùýÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+8
+java:S2386"Make this member "protected".(©ÝÑ×üÿÿÿÿ

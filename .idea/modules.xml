@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/analyse-spring/analyse-spring.iml" filepath="$PROJECT_DIR$/xuefei-spring/analyse-spring/analyse-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/linkedbear-spring/linkedbear-spring.iml" filepath="$PROJECT_DIR$/xuefei-spring/linkedbear-spring/linkedbear-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-01/small-spring-step-01.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-01/small-spring-step-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-02/small-spring-step-02.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-02/small-spring-step-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-06/small-spring-step-06.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-06/small-spring-step-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-07/small-spring-step-07.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-07/small-spring-step-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-08/small-spring-step-08.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-08/small-spring-step-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-11/small-spring-step-11.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-11/small-spring-step-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-12/small-spring-step-12.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-12/small-spring-step-12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-13/small-spring-step-13.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-13/small-spring-step-13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-14/small-spring-step-14.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-14/small-spring-step-14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-15/small-spring-step-15.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-15/small-spring-step-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-16/small-spring-step-16.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-16/small-spring-step-16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-17/small-spring-step-17.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-17/small-spring-step-17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-18/small-spring-step-18.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-18/small-spring-step-18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-19/small-spring-step-19.iml" filepath="$PROJECT_DIR$/xuefei-spring/small-spring/small-spring-step-19/small-spring-step-19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-00-introduction/spring-00-introduction.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-00-introduction/spring-00-introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-01-ioc/spring-01-ioc.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-01-ioc/spring-01-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-02-aop/spring-02-aop.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-02-aop/spring-02-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-03-dao/spring-03-dao.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-03-dao/spring-03-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-04-web/spring-04-web.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-04-web/spring-04-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-04-webmvc/spring-04-webmvc.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-04-webmvc/spring-04-webmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-04-webmvc-anno-withdao/spring-04-webmvc-anno-withdao.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-04-webmvc-anno-withdao/spring-04-webmvc-anno-withdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/linkedbear-spring/spring-05-integration/spring-05-integration.iml" filepath="$PROJECT_DIR$/xuefei-spring/linkedbear-spring/spring-05-integration/spring-05-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/spring-06-boot/spring-06-boot.iml" filepath="$PROJECT_DIR$/xuefei-spring/spring-06-boot/spring-06-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-dubbo/xuefei-dubbo.iml" filepath="$PROJECT_DIR$/xuefei-dubbo/xuefei-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuefei-spring/xuefei-spring.iml" filepath="$PROJECT_DIR$/xuefei-spring/xuefei-spring.iml" />
+    </modules>
+  </component>
+</project>

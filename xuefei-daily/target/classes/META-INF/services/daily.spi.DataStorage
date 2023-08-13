@@ -1,0 +1,2 @@
+daily.spi.MysqlStorage
+daily.spi.RedisStorage
