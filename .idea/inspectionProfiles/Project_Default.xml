@@ -45,6 +45,7 @@
     <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ADDITIONAL_TAGS" value="date,Version,Date,Author,Description" />
     </inspection_tool>
+    <inspection_tool class="JavadocLinkAsPlainText" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="MissingJavadoc" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="PACKAGE_SETTINGS">
         <Options>

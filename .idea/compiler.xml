@@ -25,6 +25,7 @@
         <module name="spring-00-introduction" />
         <module name="analyse-spring" />
         <module name="small-spring" />
+        <module name="xuefei-java" />
         <module name="xuefei-jvm" />
         <module name="spring-04-web" />
         <module name="small-spring-step-11" />
