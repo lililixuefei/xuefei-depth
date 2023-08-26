@@ -10,10 +10,15 @@ import static manshen.util.Sleeper.sleep;
 
 @Slf4j(topic = "c.TestCondition")
 public class TestCondition {
+
     static ReentrantLock lock = new ReentrantLock();
+
     static Condition waitCigaretteQueue = lock.newCondition();
-    static Condition waitbreakfastQueue = lock.newCondition();
+
+    static Condition waitBreakfastQueue = lock.newCondition();
+
     static volatile boolean hasCigrette = false;
+
     static volatile boolean hasBreakfast = false;
 
     public static void main(String[] args) {
@@ -38,7 +43,7 @@ public class TestCondition {
             try {
                 while (!hasBreakfast) {
                     try {
-                        waitbreakfastQueue.await();
+                        waitBreakfastQueue.await();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -71,7 +76,7 @@ public class TestCondition {
         try {
             log.debug("送早餐来了");
             hasBreakfast = true;
-            waitbreakfastQueue.signal();
+            waitBreakfastQueue.signal();
         } finally {
             lock.unlock();
         }
