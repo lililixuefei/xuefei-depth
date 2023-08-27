@@ -37,7 +37,7 @@ public class Finalization {
         if (f == null) {
             System.out.println("f == null");
         } else {
-            System.out.println("f ！= null");
+            System.out.println("f != null");
         }
         // 再次置空(前面复活过一次，这次为不可复活)
         f = null;
@@ -49,7 +49,7 @@ public class Finalization {
         if (f == null) {
             System.out.println("f == null");
         } else {
-            System.out.println("f ！= null");
+            System.out.println("f != null");
         }
     }
 
