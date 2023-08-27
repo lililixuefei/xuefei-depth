@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Description
+ * @Description https://juejin.cn/post/7075258758196101156
  * @Author xuefei
  * @Date 2023/3/10 10:42 上午
  * @Version 1.0
  */
 // 启动参数：-Xms8M -Xmx8M -XX:+PrintGCDetails
-public class GC2 {
+public class PrintGCDetails {
 
     // 作为GC Roots
     static List<Object> listObject = new ArrayList<>();
