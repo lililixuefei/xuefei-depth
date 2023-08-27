@@ -1,4 +1,4 @@
-package manshen;
+package manshen.cas;
 
 
 import java.util.ArrayList;
