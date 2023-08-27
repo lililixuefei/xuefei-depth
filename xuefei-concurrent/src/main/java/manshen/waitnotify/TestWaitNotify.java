@@ -1,4 +1,4 @@
-package manshen;
+package manshen.waitnotify;
 
 import lombok.extern.slf4j.Slf4j;
 
