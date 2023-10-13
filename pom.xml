@@ -12,6 +12,7 @@
         <module>xuefei-daily</module>
         <module>xuefei-arithmetic</module>
         <module>xuefei-java</module>
+        <module>xuefei-concurrent</module>
     </modules>
 
     <properties>
