@@ -1,5 +1,9 @@
 package jvm.classloader.loader;
 
+
+import java.math.BigDecimal;
+import java.util.concurrent.atomic.AtomicReference;
+
 /**
  * @Description
  * @Author xuefei
@@ -9,6 +13,7 @@ package jvm.classloader.loader;
 class Grandpa {
     static {
         System.out.println("爷爷在静态代码块");
+
     }
 
     public Grandpa() {
@@ -26,6 +31,10 @@ class Father extends Grandpa {
     public Father() {
         System.out.println("我是爸爸~");
     }
+
+    public Father(String name) {
+        System.out.println("我是爸爸2~");
+    }
 }
 
 class Son extends Father {
@@ -35,6 +44,10 @@ class Son extends Father {
 
     public Son() {
         System.out.println("我是儿子~");
+    }
+
+    public Son(String name) {
+        System.out.println("我是儿子2~");
     }
 }
 

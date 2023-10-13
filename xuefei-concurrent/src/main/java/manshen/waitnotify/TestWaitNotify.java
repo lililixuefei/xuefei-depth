@@ -9,7 +9,7 @@ import static manshen.util.Sleeper.sleep;
 public class TestWaitNotify {
     final static Object obj = new Object();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         new Thread(() -> {
             synchronized (obj) {

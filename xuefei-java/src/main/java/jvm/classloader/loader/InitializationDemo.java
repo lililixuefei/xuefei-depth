@@ -1,5 +1,10 @@
 package jvm.classloader.loader;
 
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
+
 /**
  * @Description
  * @Author xuefei
@@ -9,6 +14,22 @@ package jvm.classloader.loader;
 public class InitializationDemo {
 
     public static void main(String[] args) {
+
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0; i < 100; i++) {
+            list.add(i);
+        }
+
+        AtomicReference<BigDecimal> atomicReference = new AtomicReference<>();
+        BigDecimal bigDecimal = new BigDecimal(100);
+        BigDecimal bigDecimal2 = new BigDecimal(200);
+        atomicReference.set(bigDecimal);
+        System.out.println(atomicReference.compareAndSet(bigDecimal, bigDecimal2));
+
+        System.out.println(atomicReference.get());
+        System.out.println(bigDecimal);
+
         // 爷爷在静态代码块
         // 爸爸在静态代码块
         // 爸爸的岁数:25
@@ -21,7 +42,9 @@ public class InitializationDemo {
         // 我是爷爷~
         // 我是爸爸~
         // 我是儿子~
-        new Son();
+//        new Son();
+
+//        new Son("2");
     }
 
 }
