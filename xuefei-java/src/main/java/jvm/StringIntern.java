@@ -18,6 +18,5 @@ public class StringIntern {
 
         String str3 = "nihao";
         String str4 = "shijie";
-        str3 + str4
     }
 }
