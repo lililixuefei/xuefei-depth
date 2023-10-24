@@ -7,6 +7,7 @@ import java.util.Random;
 
 
 public class TestDeadLock {
+
     public static void main(String[] args) {
         Chopstick c1 = new Chopstick("1");
         Chopstick c2 = new Chopstick("2");
@@ -23,6 +24,7 @@ public class TestDeadLock {
 
 @Slf4j(topic = "c.Philosopher")
 class Philosopher extends Thread {
+
     Chopstick left;
     Chopstick right;
 

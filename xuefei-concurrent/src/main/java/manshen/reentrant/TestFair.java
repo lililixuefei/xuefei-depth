@@ -3,7 +3,9 @@ package manshen.reentrant;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class TestFair {
+
     public static void main(String[] args) throws InterruptedException {
+
         ReentrantLock lock = new ReentrantLock(false);
 
         lock.lock();

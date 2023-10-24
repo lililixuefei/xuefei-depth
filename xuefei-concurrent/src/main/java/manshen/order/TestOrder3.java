@@ -1,4 +1,4 @@
-package manshen.pattern;
+package manshen.order;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.LockSupport;
@@ -107,7 +107,7 @@ class SyncPark {
 }
 
 
-public class TestOrder {
+public class TestOrder3 {
 
     public static void main(String[] args) {
 //        test3();

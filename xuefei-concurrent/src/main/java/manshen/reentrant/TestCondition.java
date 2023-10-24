@@ -14,18 +14,16 @@ public class TestCondition {
     static ReentrantLock lock = new ReentrantLock();
 
     static Condition waitCigaretteQueue = lock.newCondition();
-
     static Condition waitBreakfastQueue = lock.newCondition();
 
-    static volatile boolean hasCigrette = false;
-
+    static volatile boolean hasCigarette = false;
     static volatile boolean hasBreakfast = false;
 
     public static void main(String[] args) {
         new Thread(() -> {
             lock.lock();
             try {
-                while (!hasCigrette) {
+                while (!hasCigarette) {
                     try {
                         waitCigaretteQueue.await();
                     } catch (InterruptedException e) {
@@ -64,7 +62,7 @@ public class TestCondition {
         lock.lock();
         try {
             log.debug("送烟来了");
-            hasCigrette = true;
+            hasCigarette = true;
             waitCigaretteQueue.signal();
         } finally {
             lock.unlock();
