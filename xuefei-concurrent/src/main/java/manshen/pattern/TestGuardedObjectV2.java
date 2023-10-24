@@ -9,6 +9,7 @@ import static manshen.util.Sleeper.sleep;
 
 @Slf4j(topic = "c.TestGuardedObjectV2")
 public class TestGuardedObjectV2 {
+
     public static void main(String[] args) {
         GuardedObjectV2 v2 = new GuardedObjectV2();
         new Thread(() -> {
@@ -25,6 +26,7 @@ public class TestGuardedObjectV2 {
             log.debug("can't get response");
         }
     }
+
 }
 
 

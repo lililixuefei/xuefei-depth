@@ -10,6 +10,7 @@ import static manshen.pattern.Downloader.download;
 
 @Slf4j(topic = "c.TestGuardedObject")
 public class TestGuardedObject {
+
     public static void main(String[] args) {
         GuardedObject guardedObject = new GuardedObject();
         new Thread(() -> {
@@ -27,8 +28,6 @@ public class TestGuardedObject {
         log.debug("get response: [{}] lines", ((List<String>) response).size());
 
     }
-
-
 }
 
 class GuardedObject {
