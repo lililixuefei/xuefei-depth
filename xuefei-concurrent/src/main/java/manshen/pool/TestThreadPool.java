@@ -83,11 +83,11 @@ class ThreadPool {
         }
     }
 
-    public ThreadPool(int coreSize, long timeout, TimeUnit timeUnit, int queueCapcity, RejectPolicy<Runnable> rejectPolicy) {
+    public ThreadPool(int coreSize, long timeout, TimeUnit timeUnit, int queueCapacity, RejectPolicy<Runnable> rejectPolicy) {
         this.coreSize = coreSize;
         this.timeout = timeout;
         this.timeUnit = timeUnit;
-        this.taskQueue = new BlockingQueue<>(queueCapcity);
+        this.taskQueue = new BlockingQueue<>(queueCapacity);
         this.rejectPolicy = rejectPolicy;
     }
 
@@ -137,10 +137,10 @@ class BlockingQueue<T> {
     private Condition emptyWaitSet = lock.newCondition();
 
     // 5. 容量
-    private int capcity;
+    private int capacity;
 
-    public BlockingQueue(int capcity) {
-        this.capcity = capcity;
+    public BlockingQueue(int capacity) {
+        this.capacity = capacity;
     }
 
     // 带超时阻塞获取
@@ -191,7 +191,7 @@ class BlockingQueue<T> {
     public void put(T task) {
         lock.lock();
         try {
-            while (queue.size() == capcity) {
+            while (queue.size() == capacity) {
                 try {
                     log.debug("等待加入任务队列 {} ...", task);
                     fullWaitSet.await();
@@ -212,7 +212,7 @@ class BlockingQueue<T> {
         lock.lock();
         try {
             long nanos = timeUnit.toNanos(timeout);
-            while (queue.size() == capcity) {
+            while (queue.size() == capacity) {
                 try {
                     if (nanos <= 0) {
                         return false;
@@ -245,7 +245,7 @@ class BlockingQueue<T> {
         lock.lock();
         try {
             // 判断队列是否满
-            if (queue.size() == capcity) {
+            if (queue.size() == capacity) {
                 rejectPolicy.reject(this, task);
             } else {  // 有空闲
                 log.debug("加入任务队列 {}", task);
