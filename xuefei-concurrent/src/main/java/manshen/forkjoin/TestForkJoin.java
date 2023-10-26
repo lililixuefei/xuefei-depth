@@ -96,11 +96,6 @@ class AddTask3 extends RecursiveTask<Integer> {
     }
 
     @Override
-    public String toString() {
-        return "{" + begin + "," + end + '}';
-    }
-
-    @Override
     protected Integer compute() {
         if (begin == end) {
             log.debug("join() {}", begin);
@@ -122,4 +117,10 @@ class AddTask3 extends RecursiveTask<Integer> {
         log.debug("join() {} + {} = {}", t1, t2, result);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "{" + begin + "," + end + '}';
+    }
+
 }

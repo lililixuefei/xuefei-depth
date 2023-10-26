@@ -10,7 +10,7 @@ public class TestForkJoin2 {
 
     public static void main(String[] args) {
         ForkJoinPool pool = new ForkJoinPool(4);
-        System.out.println(pool.invoke(new MyTask(5)));
+        System.out.println(pool.invoke(new MyTask(150)));
 
         // new MyTask(5)  5+ new MyTask(4)  4 + new MyTask(3)  3 + new MyTask(2)  2 + new MyTask(1)
     }
