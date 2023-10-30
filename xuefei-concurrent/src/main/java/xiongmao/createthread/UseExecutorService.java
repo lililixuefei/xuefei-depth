@@ -1,4 +1,4 @@
-package xiongmao.createThread;
+package xiongmao.createthread;
 
 import java.util.concurrent.*;
 
