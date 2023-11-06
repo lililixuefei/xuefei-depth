@@ -126,7 +126,7 @@ public class TestCountDownLatch {
             service.submit(() -> {
                 for (int i = 0; i <= 100; i++) {
                     try {
-                        Thread.sleep(r.nextInt(100));
+                        Thread.sleep(r.nextInt(200));
                     } catch (InterruptedException e) {
                     }
                     all[x] = Thread.currentThread().getName() + "(" + (i + "%") + ")";
